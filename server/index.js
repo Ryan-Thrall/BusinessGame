@@ -3,8 +3,10 @@ const app = express();
 
 const db = require('./models');
 
-// const gameRouter = require('./routes/Games');
-// app.use("/games", gameRouter);
+
+// Routers
+const gameRouter = require('./routes/Games');
+app.use("/games", gameRouter);
 
 db.sequelize.sync().then(() => {
   app.listen(3001, () => {
