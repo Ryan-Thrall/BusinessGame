@@ -98,3 +98,56 @@ body {
     display: flex;
   }
 }
+
+.cube-red,
+.cube-orange,
+.cube-green,
+.cube-blue,
+.cube-purple,
+.cube-gold {
+  background: url(./assets/images/Cubes.png);
+  background-repeat: no-repeat;
+}
+
+.cube-red {
+  width: 75px;
+  height: 75px;
+  background-position: 0px 0px;
+  background-size: 442.75px 67.5px;
+  /* transform: scale(.15); */
+}
+
+.cube-orange {
+  width: 75px;
+  height: 75px;
+  background-position: -75px 0px;
+  background-size: 442.75px 67.5px;
+}
+
+.cube-green {
+  width: 75px;
+  height: 75px;
+  background-position: -150px 0px;
+  background-size: 442.75px 67.5px;
+}
+
+.cube-blue {
+  width: 75px;
+  height: 75px;
+  background-position: -225px 0px;
+  background-size: 442.75px 67.5px;
+}
+
+.cube-purple {
+  width: 75px;
+  height: 75px;
+  background-position: -300px 0px;
+  background-size: 442.75px 67.5px;
+}
+
+.cube-gold {
+  width: 75px;
+  height: 75px;
+  background-position: -375px 0px;
+  background-size: 442.75px 67.5px;
+}

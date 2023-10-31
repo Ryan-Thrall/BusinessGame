@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Game() {
   return (
@@ -85,6 +85,28 @@ function Game() {
           <p>Wazzzuuuupppp</p>
         </div>
 
+        {/* <img src="//:0" className="cube-red" /> */}
+      </div>
+
+      <div className="flex flex-col">
+        <div className="flex">
+          <div className="cube-red flex items-center justify-center ps-3 text-lg font-bold" >700</div>
+        </div>
+        <div className="flex">
+          <div className="cube-orange flex items-center justify-center ps-3 text-lg font-bold" >7</div>
+        </div>
+        <div className="flex">
+          <div className="cube-green flex items-center justify-center ps-3 text-lg font-bold" >7</div>
+        </div>
+        <div className="flex">
+          <div className="cube-blue flex items-center justify-center ps-3 text-lg font-bold" >7</div>
+        </div>
+        <div className="flex">
+          <div className="cube-purple flex items-center justify-center ps-3 text-lg font-bold" >7</div>
+        </div>
+        <div className="flex">
+          <div className="cube-gold flex items-center justify-center ps-3 text-lg font-bold" >7</div>
+        </div>
       </div>
     </div>
   )
